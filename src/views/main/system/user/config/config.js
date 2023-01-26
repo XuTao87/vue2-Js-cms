@@ -1,0 +1,57 @@
+export const config = {
+  colLayout: {
+    span: 24,
+  },
+  obj: [
+    {
+      type: "input",
+      label: "用户名",
+      rules: [],
+      placeholder: "请输入用户名",
+      field: "name",
+      slot: "slotName",
+    },
+    {
+      type: "input",
+      label: "真实姓名",
+      rules: [],
+      placeholder: "请输入真实姓名",
+      field: "realname",
+      slot: "slotRealname",
+    },
+    {
+      type: "password",
+      label: "密码",
+      rules: [],
+      placeholder: "请输入密码",
+      field: "password",
+      slot: "slotPassword",
+    },
+    {
+      type: "input",
+      label: "电话号码",
+      rules: [],
+      placeholder: "请输入电话号码",
+      field: "cellphone",
+      slot: "slotCellphone",
+    },
+    {
+      type: "select",
+      label: "选择部门",
+      rules: [],
+      placeholder: "请选择部门",
+      field: "departmentId",
+      options: [],
+      slot: "slotDepartmentId",
+    },
+    {
+      type: "select",
+      label: "选择角色",
+      rules: [],
+      placeholder: "请选择角色",
+      field: "roleId",
+      options: [],
+      slot: "slotRoleId",
+    },
+  ],
+};
